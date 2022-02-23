@@ -1,0 +1,94 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: row;
+}
+.first-letter {
+  color: white;
+  margin-right: 10px;
+  align-self: flex-start;
+  padding: 5px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  color: #334155;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.time {
+  color: #94a3b8;
+  font-size: 12px;
+  margin-left: 20px;
+  align-self: flex-end;
+}
+
+.comment-description {
+  color: #64748b;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.like-container {
+  display: flex;
+}
+.like {
+  color: #94a3b8;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.color {
+  color: #0b69ff;
+}
+.button1 {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}

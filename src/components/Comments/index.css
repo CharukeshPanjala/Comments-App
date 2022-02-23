@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.bg-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 35px;
+}
+.paragraph {
+  color: #475569;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.write-comments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name-box {
+  padding: 7px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.comment-box {
+  padding: 7px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.button {
+  background-color: #0284c7;
+  color: white;
+  padding: 7px;
+  border-width: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.text-boxes-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.image-container {
+  width: 40%;
+}
+
+.line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.comments-count {
+  color: #475569;
+  font-weight: 600;
+}
+.number-comments {
+  background-color: #0b69ff;
+  color: white;
+  font-weight: 400;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
